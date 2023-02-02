@@ -61,7 +61,7 @@ BLOCK EXTPAR
 	49	1000d0		# MD3
 #	48	1000d0		# MD2 = MD1 (If =/= MD3)
 	61	0.285		# LAMBDA
-	62	0.2		# KAPPA (If =/= 0)
+	62	0.1165		# KAPPA (If =/= 0)
 	63	670		# ALAMBDA (If XIF+MA are not inputs)
 	64	14		# AKAPPA (If KAPPA =/=0 and XIS+MP are not inputs)
 #				  If KAPPA = 0: AKAPPA must be 0
