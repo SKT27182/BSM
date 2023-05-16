@@ -1,0 +1,22 @@
+NMSSMTools scan info               
+Version number: 6.0.0              
+
+
+Number of points:                  
+
+  scanned                               10000
+  mu=0 or (kappa=0 and Akappa=/=0)          0
+  with mh1^2 or ma1^2 or mhc^2 < 0         91
+  with m_sfermion^2 < 0                     0
+  violating constraints                  9909
+  RGE integration problem                   0
+  convergence problem                       0
+
+Remaining good points                       0
+
+
+Contraints taken into account:                    
+ - Landau poles and false minima                  
+ - LEP/Tevatron Higgs+sparticle                   
+ - LHC Higgs                                      
+ - Upsilon, B and K decays                        

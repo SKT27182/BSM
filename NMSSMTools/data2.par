@@ -1,0 +1,36 @@
+# NMSSMTools scan card example
+
+# Define the ranges for each parameter to be scanned.
+# Each line consists of the parameter name, minimum value, maximum value, and number of steps.
+# The syntax is: "parameter_name    min_value    max_value    num_steps"
+tanbeta           2.0    15.0    14
+# MA                100.0  1000.0  19
+# M1                100.0  1000.0  19
+# M2                100.0  1000.0  19
+# M3                100.0  1000.0  19
+# At                -3000  3000    13
+# Ab                -3000  3000    13
+# Atau              -3000  3000    13
+# mu                100.0  1000.0  19
+# Mh1               100.0  200.0   11
+# Mh2               100.0  200.0   11
+# Mh3               100.0  1000.0  19
+# Mhd               100.0  1000.0  19
+# Mhu               100.0  1000.0  19
+# Mss               100.0  1000.0  19
+# Msu               100.0  1000.0  19
+# Msd               100.0  1000.0  19
+# Mse               100.0  1000.0  19
+# Msn1              100.0  1000.0  19
+# Msn2              100.0  1000.0  19
+# Msn3              100.0  1000.0  19
+# Msl1              100.0  1000.0  19
+# Msl2              100.0  1000.0  19
+# Msl3              100.0  1000.0  19
+
+# Specify the number of points to be calculated in the scan.
+# This is equal to the product of the number of steps for each parameter.
+Npoints           14 #22698140
+
+# Specify the output file where the scan results will be stored.
+OutputFile        my_scan_results.dat

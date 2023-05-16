@@ -1,0 +1,59 @@
+# RELIC DENSITY CALCULATED BY MICROMEGAS
+#
+BLOCK RDINFO   # Program information
+     1   MicrOmegas # Dark matter package
+     2   6.0.0      # Version number
+     3   # DM direct detection rate too large (SI)
+     3   # DM direct detection rate too large (SD-n)
+     3   # DM direct detection rate too large (SD-p)
+#
+BLOCK ABUNDANCE
+   1   2.6224E+00   #  T_f[GeV]
+   4   1.2199E-01   #  omega h^2
+   3   2.8589E-26   #  vSigma
+# contibutions to vSigma in percents
+   6   1   1000022   1000022         5        -5   1.6759E+01   # ~o1 ~o1 -> b B                                    
+   6   2   1000022   1000022         1        -1   1.2476E+01   # ~o1 ~o1 -> d D                                    
+   6   3   1000022   1000022         3        -3   1.2476E+01   # ~o1 ~o1 -> s S                                    
+   6   4   1000022   1000022         4        -4   9.9607E+00   # ~o1 ~o1 -> c C                                    
+   6   5   1000022   1000022         2        -2   9.7094E+00   # ~o1 ~o1 -> u U                                    
+   6   6   1000022   1000022        25        36   9.6994E+00   # ~o1 ~o1 -> h1 ha                                  
+   6   7   1000022   1000022        12       -12   5.5286E+00   # ~o1 ~o1 -> ne Ne                                  
+   6   8   1000022   1000022        14       -14   5.5286E+00   # ~o1 ~o1 -> nm Nm                                  
+   6   9   1000022   1000022        16       -16   5.5286E+00   # ~o1 ~o1 -> nl Nl                                  
+   6  10   1000022   1000022        15       -15   3.3014E+00   # ~o1 ~o1 -> l L                                    
+   6  11   1000022   1000022        11       -11   2.8253E+00   # ~o1 ~o1 -> e E                                    
+   6  12   1000022   1000022        13       -13   2.8253E+00   # ~o1 ~o1 -> m M                                    
+   6  13   1000022   1000022        24       -24   1.7398E+00   # ~o1 ~o1 -> W+ W-                                  
+# contibutions to 1/Omega in percents
+   7   1   1000022   1000022         5        -5   1.8357E+01   # ~o1 ~o1 -> b B                                    
+   7   2   1000022   1000022        25        36   1.4563E+01   # ~o1 ~o1 -> h1 ha                                  
+   7   3   1000022   1000022         1        -1   1.0876E+01   # ~o1 ~o1 -> d D                                    
+   7   4   1000022   1000022         3        -3   1.0876E+01   # ~o1 ~o1 -> s S                                    
+   7   5   1000022   1000022         4        -4   8.8970E+00   # ~o1 ~o1 -> c C                                    
+   7   6   1000022   1000022         2        -2   8.4657E+00   # ~o1 ~o1 -> u U                                    
+   7   7   1000022   1000022        12       -12   4.8215E+00   # ~o1 ~o1 -> ne Ne                                  
+   7   8   1000022   1000022        14       -14   4.8215E+00   # ~o1 ~o1 -> nm Nm                                  
+   7   9   1000022   1000022        16       -16   4.8215E+00   # ~o1 ~o1 -> nl Nl                                  
+   7  10   1000022   1000022        15       -15   3.2942E+00   # ~o1 ~o1 -> l L                                    
+   7  11   1000022   1000022        24       -24   2.8674E+00   # ~o1 ~o1 -> W+ W-                                  
+   7  12   1000022   1000022        11       -11   2.4624E+00   # ~o1 ~o1 -> e E                                    
+   7  13   1000022   1000022        13       -13   2.4624E+00   # ~o1 ~o1 -> m M                                    
+   7  14   1000022   1000022        21        21   1.3441E+00   # ~o1 ~o1 -> G G                                    
+#
+BLOCK LSP
+   0   6.1780E+01   #  LSP mass
+   1   1.0225E-01   #  bino
+   2   7.5412E-02   #  wino
+   3   4.1395E-01   #  higgsino2
+   4   1.8181E-01   #  higgsino1
+   5   8.8286E-01   #  singlino
+#
+BLOCK NDMCROSSSECT
+   1   1.3396E-45   #  # csPsi [cm^2]
+   2   1.5608E-45   #  # csNsi [cm^2]
+   3   7.9691E-40   #  # csPsd [cm^2]
+   4  -6.0910E-40   #  # csNsd [cm^2]
+# Values used for sigma_piN,sigma_S (strange content of the proton)
+#  3.40000000E+01 sigma_piN
+#  4.20000000E+01 sigma_S
